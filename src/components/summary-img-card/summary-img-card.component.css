@@ -1,0 +1,59 @@
+
+.summary-img-card {
+    width: 256px;
+    height: 20px;
+    border-radius: 12px;
+    padding: 18px  16px;
+    display: flex;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.summary-img {
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+}
+
+.summary-score {
+    display: flex;
+    position: absolute;
+    right: 18px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #303B59;
+}
+
+.img-card-score {
+    margin-right: 8px;
+}
+
+.img-card-total-score {
+    opacity: 0.5;
+}
+
+.red {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FF5555;
+    color: #FF5555;
+}
+
+.yellow {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FFB21E;
+    color: #FFB21E;
+}
+
+.green {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #00BB8F;
+    color: #00BB8F;
+}
+
+.blue {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #1125D6;
+    color: #1125D6;
+}

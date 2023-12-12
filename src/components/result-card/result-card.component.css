@@ -1,0 +1,81 @@
+.result-card {
+    background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+    border-radius: 32px;
+    width: 368px;
+    height: 512px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text {
+    width: 125px;
+    height: 31px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #CAC9FF;
+    margin-bottom: 35px;
+}
+
+.oval {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0) 100%, rgba(37, 33, 201, 0) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 28px;
+    flex-direction: column;
+}
+
+.score {
+    width: 81px;
+    height: 72px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 72px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 4px;
+}
+
+.total-score {
+    width: 52px;
+    height: 23px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #CAC9FF;
+    mix-blend-mode: normal;
+    opacity: 0.52;
+}
+
+.info {
+    width: 260px;
+    height: 134px;
+    text-align: center;
+    font-style: normal;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+
+}
+
+.content {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #CAC9FF;
+}
+

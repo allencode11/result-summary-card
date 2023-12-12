@@ -1,0 +1,21 @@
+.card-btn {
+    margin-top: 45px;
+    width: 288px;
+    height: 56px;
+    background: #303B59;
+    border-radius: 128px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.card-btn:hover {
+    filter: drop-shadow(0px 30px 60px rgba(61, 108, 236, 0.15));
+    background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+}
