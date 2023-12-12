@@ -40,5 +40,26 @@
   color: #303B59;
 }
 
-@media
+@media only screen and (max-width: 750px) {
+  .main {
+    width: 375px;
+    height: 809px;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .summary-card {
+    margin-left: 30px
+  }
+  .summary-title {
+    font-size: 18px;
+    line-height: 23px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    width: 78px;
+    height: 23px;
+    font-weight: 700;
+    opacity: 0.32;
+  }
+}
 

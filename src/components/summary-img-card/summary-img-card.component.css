@@ -57,3 +57,14 @@
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #1125D6;
     color: #1125D6;
 }
+
+@media only screen and (max-width: 750px) {
+    .summary-img-card {
+        width: 283px;
+        line-height: 21px;
+    }
+    .summary-score {
+        font-size: 16px;
+        line-height: 21px;
+    }
+}

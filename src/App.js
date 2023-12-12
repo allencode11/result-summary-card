@@ -3,9 +3,9 @@ import img1 from './assets/images/reaction.png';
 import img2 from './assets/images/memory.png';
 import img3 from './assets/images/verbal.png';
 import img4 from './assets/images/visual.png';
-import {BtnComponent} from "./components/btn/btn.component";
-import {SummaryImgCardComponent} from "./components/summary-img-card/summary-img-card.component";
-import {ResultCardComponent} from "./components/result-card/result-card.component";
+import { BtnComponent } from "./components/btn/btn.component";
+import { SummaryImgCardComponent } from "./components/summary-img-card/summary-img-card.component";
+import { ResultCardComponent } from "./components/result-card/result-card.component";
 
 function App() {
   return (
